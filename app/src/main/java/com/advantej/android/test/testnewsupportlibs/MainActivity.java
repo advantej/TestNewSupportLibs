@@ -13,6 +13,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.advantej.android.test.testnewsupportlibs.cardview.TestCardViewActivity;
+import com.advantej.android.test.testnewsupportlibs.palette.TestPalettteActivity;
 import com.advantej.android.test.testnewsupportlibs.recyclerview.TestRecyclerViewActivity;
 
 import java.util.ArrayList;
@@ -36,6 +37,9 @@ public class MainActivity extends Activity {
                         break;
                     case 1:
                         startActivity(new Intent(MainActivity.this, TestCardViewActivity.class));
+                        break;
+                    case 2:
+                        startActivity(new Intent(MainActivity.this, TestPalettteActivity.class));
                         break;
                 }
             }
@@ -69,6 +73,7 @@ public class MainActivity extends Activity {
         private MyAdapter() {
             menuItems.add("Test Recycler View");
             menuItems.add("Test Card View");
+            menuItems.add("Test Palette ");
         }
 
         @Override

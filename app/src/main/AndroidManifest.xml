@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
-          package="com.advantej.android.test.testnewsupportlibs" >
+    package="com.advantej.android.test.testnewsupportlibs" >
 
     <uses-sdk tools:node="replace" />
 
@@ -26,6 +26,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".palette.TestPalettteActivity"
+            android:label="@string/title_activity_test_pallet" >
         </activity>
     </application>
 

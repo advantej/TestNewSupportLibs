@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.advantej.android.test.testnewsupportlibs.palette.TestPalettteActivity">
+
+
+    <ImageView
+        android:id="@+id/iv_palette_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:id="@+id/tv_palette1"
+        android:padding="5dp"
+        android:layout_below="@id/iv_palette_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_palette2"
+        android:padding="5dp"
+        android:layout_below="@id/tv_palette1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_palette3"
+        android:padding="5dp"
+        android:layout_below="@id/tv_palette2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_palette4"
+        android:padding="5dp"
+        android:layout_below="@id/tv_palette3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_palette5"
+        android:padding="5dp"
+        android:layout_below="@id/tv_palette4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_palette6"
+        android:padding="5dp"
+        android:layout_below="@id/tv_palette5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

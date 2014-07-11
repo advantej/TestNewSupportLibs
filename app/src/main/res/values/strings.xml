@@ -7,5 +7,6 @@
     <string name="title_activity_test_recycler_view">TestRecyclerView</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="action_toggle_orientation">Toggle Orientation</string>
+    <string name="title_activity_test_pallet">TestPalletActivity</string>
 
 </resources>
