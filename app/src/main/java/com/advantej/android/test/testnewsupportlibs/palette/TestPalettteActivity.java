@@ -14,6 +14,8 @@ import com.advantej.android.test.testnewsupportlibs.R;
 
 public class TestPalettteActivity extends Activity {
 
+   // More on using the palette at : http://chris.banes.me/2014/07/04/palette-preview/
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
