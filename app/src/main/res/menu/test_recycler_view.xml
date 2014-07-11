@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.advantej.android.test.testnewsupportlibs.recyclerview.TestRecyclerViewActivity" >
+    <item android:id="@+id/action_toggle_orientation"
+        android:title="@string/action_toggle_orientation"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>
